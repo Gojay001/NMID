@@ -1,2 +1,2 @@
-# NMID
-NMID back end demo
+# README
+NMID 后台练习Demo
