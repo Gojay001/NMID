@@ -30,6 +30,7 @@ public class UserDB {
             }
         }catch (SQLException e) {
             System.out.println("连接数据库出错！");
+            e.printStackTrace();
         } finally {
             try {
                 rs.close();

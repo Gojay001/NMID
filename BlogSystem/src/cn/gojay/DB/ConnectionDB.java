@@ -14,7 +14,7 @@ public class ConnectionDB {
     public static Connection getConnection() {
         Connection conn = null;
         String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-        String DB_URL = "jdbc:mysql://localhost:3306/blogsystem";
+        String DB_URL = "jdbc:mysql://192.168.30.123:3306/BLOGSYSTEM";
         String username = "root";
         String password = "root";
 
